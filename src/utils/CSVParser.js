@@ -51,7 +51,7 @@ export class CSVParser {
     }
 
     /**
-     * Parse poll responses CSV (complex Zoom/Webex format)
+     * Parse poll responses CSV (complex Zoom format)
      * Detects poll sections and counts participant responses
      */
     static parsePollResponses(csvText) {

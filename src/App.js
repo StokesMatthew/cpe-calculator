@@ -243,7 +243,7 @@ function App() {
             <FileUpload
               id="polls"
               title="Poll Responses CSV"
-              description="Zoom/Webex poll export"
+              description="Zoom poll export"
               icon="📊"
               files={state.pollsFiles}
               onFileSelect={(file) => handleFileUpload(file, 'polls')}
